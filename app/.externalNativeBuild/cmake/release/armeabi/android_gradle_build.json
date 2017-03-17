@@ -1,0 +1,46 @@
+
+{
+	"buildFiles" : [ "C:/Users/Degree361/Desktop/C++Test/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\Degree361\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\Degree361\\Desktop\\C++Test\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"lib_opencv-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "lib_opencv",
+			"buildType" : "release",
+			"output" : "C:/Users/Degree361/Desktop/C++Test/app/src/main/jniLibs/armeabi/libopencv_java3.so",
+			"toolchain" : "2008836609"
+		},
+		"native-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "native-lib",
+			"buildCommand" : "C:\\Users\\Degree361\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\Degree361\\Desktop\\C++Test\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/Degree361/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Degree361/AppData/Local/Android/sdk/ndk-bundle/platforms/android-21/arch-arm  -Dnative_lib_EXPORTS -IC:\\Users\\Degree361\\Downloads\\opencv-3.2.0-android-sdk\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem C:\\Users\\Degree361\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\Degree361\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem C:\\Users\\Degree361\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/Degree361/Desktop/C++Test/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "C:/Users/Degree361/Desktop/C++Test/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "C:/Users/Degree361/Desktop/C++Test/app/build/intermediates/cmake/release/obj/armeabi/libnative-lib.so",
+			"toolchain" : "2008836609"
+		}
+	},
+	"toolchains" : 
+	{
+		"2008836609" : 
+		{
+			"cCompilerExecutable" : "C:/Users/Degree361/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/Degree361/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
